@@ -9,7 +9,7 @@
         wait: true
         count: 1
         region: "{{ aws_region }}"
-        vpc_subnet_id: "{{ vpc_subnets.results[0].subnet.id }}"
+        vpc_subnet_id: "{{ vpc_subnets.results[1].subnet.id }}"
         instance_tags: "{{ resource_tags }}"
   register: consul_server
 

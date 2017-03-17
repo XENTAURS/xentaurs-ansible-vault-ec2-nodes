@@ -3,7 +3,7 @@
 - name: provision consul bootstrap node
   ec2:
         key_name: "{{ keypair }}"
-        group_id: "{{ pri_sg.group_id }}"
+        group_id: "{{ pub_sg.group_id }}"
         instance_type: "{{ instance_type }}"
         image: "{{ image }}"
         wait: true
