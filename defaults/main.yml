@@ -5,4 +5,4 @@ instance_type: t2.medium
 image: ami-2d39803a
 resource_tags:
   Owner: xentaurs
-  Terminate: Fals
+  Terminate: False
